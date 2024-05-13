@@ -30,25 +30,3 @@ export default function App() {
     </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginTop: StatusBar.currentHeight || 0,
-  },
-});
-
-/*
-Dependencias: 
-
-1: npm i @react-navigation/native
-
-2: npm i @react-navigation/native-stack
-
-3: npm install @react-native-picker/picker
-npm install react-native-picker-select
-
-*/
