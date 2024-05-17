@@ -24,6 +24,7 @@ const Pantalla1 = ({ navigation }) => {
                             <Text style={styles.title}>{item.title}</Text>
                         </View>
                     )}
+                    
                     keyExtractor={(item) => item.id}
                 />
             </View>
